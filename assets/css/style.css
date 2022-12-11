@@ -21,7 +21,7 @@ body {
 
 .logo {
     flex: 20%;
-    text-align: center;
+    text-align: left;
     margin-left: 10%;
     /*border: 1px solid red;*/
 }
@@ -63,4 +63,120 @@ body {
 #botao:hover {
     border: none;
     background: #ff2978;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+}
+
+.headline p {
+    color: grey;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin-top: 30px;
+    background: #ff2978;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #180f4a;
+}
+
+.headline h2:nth-child(1) {
+    letter-spacing: 15px;
+}
+
+.headline h2:nth-child(2) {
+    font-size: 80px;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+.img-headline img {
+    max-width: 90%;
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    /*border: 1px solid black;*/
+    margin-left: 5%;
+    margin-right: 5%;
+    /*height: 400px;*/
+    text-align: center;
+    padding: 5%;
+    /*width: 90%;*/
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180f4a;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text-secret {
+    display: none;
+}
+
+.card:hover {
+    background-color: #ff2978;
+    color: #fff;
+    padding: 50px;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .text-oficial {
+    display: none;
+}
+
+.card:hover .text-secret {
+    display: block;
 }
