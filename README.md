@@ -7,8 +7,10 @@ LandPage específica para agência digital em serviços:
 > Criação de App Mobile
 
 > Consultoria em Marketing Digital
-
 #
+Deploy Cloud Netlify ☁️🚀
+
+[Agência Fake](https://agenciafake-bn.netlify.app/) <img width='20' align='center' src="./assets/images/favicon.ico"/>
 
 ### Skills:
 
