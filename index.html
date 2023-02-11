@@ -16,6 +16,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -23,21 +24,21 @@
         <h1>Agência Fake</h1>
       </div>
       <div class="menu">
-        <a href="#">Home</a>
-        <a href="#">Sobre Nós</a>
-        <a href="#">Serviços</a>
-        <a id="botao" href="#">Fale Conosco</a>
+        <a href="#home">Home</a>
+        <a href="#home">Sobre Nós</a>
+        <a href="#services">Serviços</a>
+        <a id="botao" href="#contact">Fale Conosco</a>
       </div>
     </nav>
 
-    <header class="header">
+    <header id="home" class="header">
       <div class="headline">
         <h2>você achou a melhor</h2>
         <h2>Agência Digital</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, velit
-          repudiandae, ad ipsam quia dolorum quasi earum eaque aut, iure quis
-          sed debitis a impedit eum labore. Consequuntur, quam sint.
+          Somos uma consultoria de inovação focada em criar modelos de negócio,
+          construir marcas e desenvolver estratégias de mercado para nossos
+          parceiros crescerem com saúde e sustentabilidade.
         </p>
         <a class="contact-btn" href="#">Contate Agora</a>
       </div>
@@ -48,25 +49,26 @@
 
     <section>
       <h2>Oque podemos fazer pelo seu negócio?</h2>
-      <div class="servicos">
+      <div id="services" class="servicos">
         <div class="card">
           <div class="text-oficial">
             <img src="assets/images/pc.png" alt="PC icon" />
             <h3>Desenvolvimento de sites</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              ullam ducimus nesciunt? Repellendus amet necessitatibus, iure
-              maxime illo facilis dolorem ullam et commodi eum eaque harum
-              consequatur in? Repellat, consequuntur?
+              O desenvolvimento de sites para sua empresa é tanto uma vantagem
+              competitiva quanto uma necessidade criada pelas novas dinâmicas de
+              mercado. Desenvolvemos mais de 150 sites por ano desde 2016. Peça
+              um orçamento!
             </p>
           </div>
           <div class="text-secret">
+            <img src="assets/images/desenvolvimento-web.png" alt="PC icon" />
             <h3>Bloco Secreto</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              ullam ducimus nesciunt? Repellendus amet necessitatibus, iure
-              maxime illo facilis dolorem ullam et commodi eum eaque harum
-              consequatur in? Repellat, consequuntur?
+              O benefício para pequenas empresas que têm um site é ser mais
+              fácil de encontrar e se destacar. Essa que é uma das grandes
+              dificuldades para pequenos negócios atualmente. O próximo passo é
+              manter ele sempre atualizado.
             </p>
           </div>
         </div>
@@ -75,19 +77,23 @@
             <img src="assets/images/smartphone.png" alt="smartphone icon" />
             <h3>Desenvolvimento de Apps</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              ullam ducimus nesciunt? Repellendus amet necessitatibus, iure
-              maxime illo facilis dolorem ullam et commodi eum eaque harum
-              consequatur in? Repellat, consequuntur?
+              Seu aplicativo mobile é feito sob medida. Desenvolvemos
+              plataformas ágeis e intuitivas com as mesmas tecnologias
+              utilizadas no Vale do Silício. Padrão de software personalizado,
+              funcionalidades tecnológicas inovadoras.
             </p>
           </div>
           <div class="text-secret">
+            <img
+              src="assets/images/desenvolvimento-de-aplicativos.png"
+              alt="smartphone icon"
+            />
             <h3>Bloco Secreto</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              ullam ducimus nesciunt? Repellendus amet necessitatibus, iure
-              maxime illo facilis dolorem ullam et commodi eum eaque harum
-              consequatur in? Repellat, consequuntur?
+              Aqui o seu software começa a ganhar forma! De acordo com o que for
+              definido no planejamento do projeto, essa etapa pode ser feita em
+              uma única entrega, ou de forma contínua, onde as funcionalidades
+              são entregues conforme são desenvolvidas.
             </p>
           </div>
         </div>
@@ -96,23 +102,37 @@
             <img src="assets/images/marketing.png" alt="marketing icon" />
             <h3>Marketing Digital</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              ullam ducimus nesciunt? Repellendus amet necessitatibus, iure
-              maxime illo facilis dolorem ullam et commodi eum eaque harum
-              consequatur in? Repellat, consequuntur?
+              A capacidade de mudar com fluidez e eficiência é a melhor
+              estratégia para o crescimento. focada em construir marcas, criar
+              modelos de negócio, estratégias de mercado para nossos parceiros e
+              clientes crescerem de forma sustentavel.
             </p>
           </div>
           <div class="text-secret">
+            <img src="assets/images/publico-alvo.png" alt="marketing icon" />
             <h3>Bloco Secreto</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              ullam ducimus nesciunt? Repellendus amet necessitatibus, iure
-              maxime illo facilis dolorem ullam et commodi eum eaque harum
-              consequatur in? Repellat, consequuntur?
+              Apareça quando seus clientes estiverem pesquisando no Google,
+              navegando na web e assistindo vídeos no YouTube. Maximize seus
+              resultados com as soluções automatizadas do Google Ads. Receba
+              suporte gratuito personalizado.
             </p>
           </div>
         </div>
       </div>
     </section>
+    <footer>
+      <div id="contact" class="logo-rodape">
+        <h1 class="agencia">Agência Fake</h1>
+        <p>Um site feito com HTML e CSS puro</p>
+      </div>
+      <b>&copy; Todos os direitos reservados</b>
+    </footer>
+    <a
+      class="whats"
+      href="https://api.whatsapp.com/send?phone=5511959996260&text=Entre%20em%20contato%20via%20WhatsApp%20e%20fa%C3%A7a%20seu%20or%C3%A7amento!"
+      target="_blank"
+      ><img src="assets/images/whats.png" alt="Whatsapp"
+    /></a>
   </body>
 </html>
